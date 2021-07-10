@@ -11,3 +11,5 @@ there are 5 examples that gets more complex as you go up in number:
 - httpserver4.py takes what we have in httpserver3.py and adds code that will return a 404 not found, if html file was not found (one of the links intentionally does not work)
 
 - httpserver5.py works exactly the same as httpserver4.py, but the example uses a python function to make it more modular
+
+note: the favicon.ico file is needed for some reason else it wont work (there is a request for it) so don't erase it, it's basically an image file and there are online sites where you can make one
