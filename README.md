@@ -18,4 +18,4 @@ note: the favicon.ico file is needed for some reason else it wont work (there is
 
 
 my python version is Python 3.6.5 (but it should work with later versions)
-Google Chrome Version 91.0.4472.114 (Official Build) (x86_64)
+Google Chrome Version 91.0.4472.114 (Official Build) (x86_64) (but should work with similar versions of chrome earlier and later)
