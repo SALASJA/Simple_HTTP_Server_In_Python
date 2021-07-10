@@ -12,6 +12,9 @@ there are 5 examples that gets more complex as you go up in number:
 
 - httpserver5.py works exactly the same as httpserver4.py, but the example uses a python function to make it more modular
 
-note: the favicon.ico file is needed for some reason else it wont work (there is a request for it) so don't erase it, it literally has only 1-byte of data in it (using online generated favicons might make the code crash); but these examples are confirmed to work on macOS 10.12.1 (and Im pretty sure it will work on other operating systems).
+note: the favicon.ico file is needed for some reason else it wont work (there is a request for it) so don't erase it, it literally has only 2-bytes of data in it (using online generated favicons might make the code crash); but these examples are confirmed to work on macOS 10.12.1 (and Im pretty sure it will work on other operating systems).
+
+- 00000000: 300a                                     0. <-- hex dump of favicon.ico using xxd
+
 
 my python version is Python 3.6.5 (but it should work with later versions)
